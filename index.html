@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Scifi-style Interative Form - CodePen</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+    <script src="js/modernizr.js"></script>
+
+</head>
+
+<body>
+
+  <div class="scifiUI">
+
+  <form>
+
+    <!--Text input-->
+    <div class="inline">
+      <label for="textInput">Text Input</label>
+      <input type="text" id="textInput">
+    </div>
+
+    <!--Radios-->
+    <div class="inline">
+      <div class="radioWrapper">
+        <input type="radio" name="radio" id="radioA" checked>
+        <label for="radioA">Radio A</label>
+      </div>
+      <div class="radioWrapper">
+        <input type="radio" name="radio" id="radioB">
+        <label for="radioB">Radio B</label>
+      </div>
+      <div class="radioWrapper">
+        <input type="radio" name="radio" id="radioC">
+        <label for="radioC">Radio C</label>
+      </div>
+    </div>
+
+    <!--Checkboxes-->
+    <div class="inline">
+      <div class="checkboxWrapper">
+        <input type="checkbox" name="checkbox" id="checkboxA">
+        <label for="checkboxA">Checkbox A</label>
+      </div>
+      <div class="checkboxWrapper">
+        <input type="checkbox" name="checkbox" id="checkboxB" checked>
+        <label for="checkboxB">Checkbox B</label>
+      </div>
+      <div class="checkboxWrapper">
+        <input type="checkbox" name="checkbox" id="checkboxC" checked>
+        <label for="checkboxC">Checkbox C</label>
+      </div>
+    </div>
+
+    <!--Selector-->
+    <div class="inline">
+      <div class="selectWrapper">
+        <select id="selector" name="selector">
+          <option value="option1" selected disabled>Please choose..</option>
+          <option value="option2">Option 1</option>
+          <option value="option3">Option 2</option>
+          <option value="option4">Option 3</option>
+          <option value="option5">Option 4</option>
+          <option value="option6">Option 5</option>
+          <option value="option7">Option 6</option>
+          <option value="option8">Option 7</option>
+        </select>
+        <i></i>
+      </div>
+    </div>
+
+    <!--Button-->
+    <div class="inline">
+      <button type="button">Button</button>
+    </div>
+
+  </form>
+
+</div>
+
+  <script src='http://codepen.io/assets/libs/fullpage/angular.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>

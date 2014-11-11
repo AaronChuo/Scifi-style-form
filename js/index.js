@@ -1,0 +1,1 @@
+/* This implement don't need Javascript */
